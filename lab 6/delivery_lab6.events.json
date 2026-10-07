@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "6ac5f1426233282a89525200"
+  },
+  "event_id": "E001",
+  "order_id": "ORD001",
+  "courier_id": "C001",
+  "zone_id": "Z01",
+  "event_time": {
+    "$date": "2026-10-08T08:00:00.000Z"
+  },
+  "status": "created",
+  "description": "Заказ создан"
+},
+{
+  "_id": {
+    "$oid": "6ac5f1426233282a89525201"
+  },
+  "event_id": "E002",
+  "order_id": "ORD001",
+  "courier_id": "C001",
+  "zone_id": "Z01",
+  "event_time": {
+    "$date": "2026-10-08T08:30:00.000Z"
+  },
+  "status": "picked_up",
+  "description": "Заказ принят курьером"
+},
+{
+  "_id": {
+    "$oid": "6ac5f1426233282a89525202"
+  },
+  "event_id": "E003",
+  "order_id": "ORD001",
+  "courier_id": "C001",
+  "zone_id": "Z01",
+  "event_time": {
+    "$date": "2026-10-08T09:00:00.000Z"
+  },
+  "status": "in_transit",
+  "description": "Заказ передан в доставку"
+},
+{
+  "_id": {
+    "$oid": "6ac5f1426233282a89525203"
+  },
+  "event_id": "E004",
+  "order_id": "ORD002",
+  "courier_id": "C001",
+  "zone_id": "Z02",
+  "event_time": {
+    "$date": "2026-10-08T09:30:00.000Z"
+  },
+  "status": "created",
+  "description": "Заказ создан"
+},
+{
+  "_id": {
+    "$oid": "6ac5f1426233282a89525204"
+  },
+  "event_id": "E005",
+  "order_id": "ORD002",
+  "courier_id": "C001",
+  "zone_id": "Z02",
+  "event_time": {
+    "$date": "2026-10-08T10:00:00.000Z"
+  },
+  "status": "picked_up",
+  "description": "Заказ принят"
+},
+{
+  "_id": {
+    "$oid": "6ac5f1426233282a89525205"
+  },
+  "event_id": "E006",
+  "order_id": "ORD002",
+  "courier_id": "C001",
+  "zone_id": "Z02",
+  "event_time": {
+    "$date": "2026-10-08T10:30:00.000Z"
+  },
+  "status": "delivered",
+  "description": "Заказ доставлен"
+},
+{
+  "_id": {
+    "$oid": "6ac5f1426233282a89525206"
+  },
+  "event_id": "E007",
+  "order_id": "ORD003",
+  "courier_id": "C002",
+  "zone_id": "Z01",
+  "event_time": {
+    "$date": "2026-10-08T10:00:00.000Z"
+  },
+  "status": "created",
+  "description": "Заказ создан"
+},
+{
+  "_id": {
+    "$oid": "6ac5f1426233282a89525207"
+  },
+  "event_id": "E008",
+  "order_id": "ORD003",
+  "courier_id": "C002",
+  "zone_id": "Z01",
+  "event_time": {
+    "$date": "2026-10-08T11:00:00.000Z"
+  },
+  "status": "in_transit",
+  "description": "Курьер получил заказ"
+},
+{
+  "_id": {
+    "$oid": "6ac5f1426233282a89525208"
+  },
+  "event_id": "E009",
+  "order_id": "ORD007",
+  "courier_id": "C002",
+  "zone_id": "Z02",
+  "event_time": {
+    "$date": "2026-10-08T11:00:00.000Z"
+  },
+  "status": "created",
+  "description": "Заказ создан"
+},
+{
+  "_id": {
+    "$oid": "6ac5f1426233282a89525209"
+  },
+  "event_id": "E010",
+  "order_id": "ORD007",
+  "courier_id": "C002",
+  "zone_id": "Z02",
+  "event_time": {
+    "$date": "2026-10-08T12:00:00.000Z"
+  },
+  "status": "in_transit",
+  "description": "Заказ в пути"
+}]

@@ -1,0 +1,165 @@
+[{
+  "_id": {
+    "$oid": "6ac5f0c86233282a895251f4"
+  },
+  "order_id": "ORD001",
+  "courier_id": "C001",
+  "customer_id": "U001",
+  "zone_id": "Z01",
+  "delivery_date": {
+    "$date": "2026-10-08T00:00:00.000Z"
+  },
+  "delivery_time": "09:00",
+  "address": "ул. Абая, 10",
+  "status": "created"
+},
+{
+  "_id": {
+    "$oid": "6ac5f0c86233282a895251f5"
+  },
+  "order_id": "ORD002",
+  "courier_id": "C001",
+  "customer_id": "U002",
+  "zone_id": "Z02",
+  "delivery_date": {
+    "$date": "2026-10-08T00:00:00.000Z"
+  },
+  "delivery_time": "10:30",
+  "address": "ул. Достык, 25",
+  "status": "delivered"
+},
+{
+  "_id": {
+    "$oid": "6ac5f0c86233282a895251f6"
+  },
+  "order_id": "ORD003",
+  "courier_id": "C002",
+  "customer_id": "U003",
+  "zone_id": "Z01",
+  "delivery_date": {
+    "$date": "2026-10-08T00:00:00.000Z"
+  },
+  "delivery_time": "11:00",
+  "address": "ул. Жарокова, 21",
+  "status": "in_transit"
+},
+{
+  "_id": {
+    "$oid": "6ac5f0c86233282a895251f7"
+  },
+  "order_id": "ORD004",
+  "courier_id": "C001",
+  "customer_id": "U004",
+  "zone_id": "Z01",
+  "delivery_date": {
+    "$date": "2026-10-08T00:00:00.000Z"
+  },
+  "delivery_time": "13:00",
+  "address": "ул. Сатпаева, 15",
+  "status": "in_transit"
+},
+{
+  "_id": {
+    "$oid": "6ac5f0c86233282a895251f8"
+  },
+  "order_id": "ORD005",
+  "courier_id": "C001",
+  "customer_id": "U005",
+  "zone_id": "Z03",
+  "delivery_date": {
+    "$date": "2026-10-09T00:00:00.000Z"
+  },
+  "delivery_time": "09:30",
+  "address": "ул. Толе би, 44",
+  "status": "delivered"
+},
+{
+  "_id": {
+    "$oid": "6ac5f0c86233282a895251f9"
+  },
+  "order_id": "ORD006",
+  "courier_id": "C001",
+  "customer_id": "U006",
+  "zone_id": "Z02",
+  "delivery_date": {
+    "$date": "2026-10-09T00:00:00.000Z"
+  },
+  "delivery_time": "15:00",
+  "address": "ул. Байтурсынова, 18",
+  "status": "created"
+},
+{
+  "_id": {
+    "$oid": "6ac5f0c86233282a895251fa"
+  },
+  "order_id": "ORD007",
+  "courier_id": "C002",
+  "customer_id": "U007",
+  "zone_id": "Z02",
+  "delivery_date": {
+    "$date": "2026-10-08T00:00:00.000Z"
+  },
+  "delivery_time": "12:00",
+  "address": "ул. Гагарина, 32",
+  "status": "delivered"
+},
+{
+  "_id": {
+    "$oid": "6ac5f0c86233282a895251fb"
+  },
+  "order_id": "ORD008",
+  "courier_id": "C002",
+  "customer_id": "U008",
+  "zone_id": "Z03",
+  "delivery_date": {
+    "$date": "2026-10-09T00:00:00.000Z"
+  },
+  "delivery_time": "14:00",
+  "address": "ул. Розыбакиева, 50",
+  "status": "delivered"
+},
+{
+  "_id": {
+    "$oid": "6ac5f0c86233282a895251fc"
+  },
+  "order_id": "ORD009",
+  "courier_id": "C002",
+  "customer_id": "U009",
+  "zone_id": "Z01",
+  "delivery_date": {
+    "$date": "2026-10-10T00:00:00.000Z"
+  },
+  "delivery_time": "10:00",
+  "address": "ул. Фурманова, 70",
+  "status": "in_transit"
+},
+{
+  "_id": {
+    "$oid": "6ac5f0c86233282a895251fd"
+  },
+  "order_id": "ORD010",
+  "courier_id": "C003",
+  "customer_id": "U010",
+  "zone_id": "Z02",
+  "delivery_date": {
+    "$date": "2026-10-08T00:00:00.000Z"
+  },
+  "delivery_time": "08:30",
+  "address": "ул. Кабанбай батыра, 5",
+  "status": "delivered"
+},
+{
+  "_id": {
+    "$oid": "6ac5f0c86233282a895251fe"
+  },
+  "order_id": "ORD011",
+  "courier_id": "C003",
+  "customer_id": "U011",
+  "zone_id": "Z03",
+  "delivery_date": {
+    "$date": "2026-10-09T00:00:00.000Z"
+  },
+  "delivery_time": "13:00",
+  "address": "ул. Навои, 22",
+  "status": "created"
+}]
